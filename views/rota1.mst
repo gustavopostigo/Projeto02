@@ -1,0 +1,93 @@
+{{>header}}
+<h1> Histórico de Aulas </h1>
+<h1> 1º Semestre</h1>
+{{#materia1}}
+<h1> </h1>
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia1}}
+{{#materia2}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b>nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia2}}
+{{#materia3}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia3}}
+{{#materia4}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia4}}
+{{#materia5}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia5}}
+{{#materia6}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia6}}
+
+<h1> 2º Semestre </h1>
+{{#materia7}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia7}}
+{{#materia8}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia8}}
+{{#materia9}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia9}}
+{{#materia10}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia10}}
+
+<style>
+body{
+    background-image: linear-gradient( to right, #bc4ed8,#f988ff); 
+    font-family: 'Open Sans', sans-serif;font-size:20px;
+}
+h1{
+    color:white;
+}
+ul{
+    color:white;
+}
+b{
+    color:black;
+}
+
+</style>
