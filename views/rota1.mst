@@ -1,4 +1,5 @@
 {{>header}}
+
 <h1> Histórico de Aulas </h1>
 <h1> 1º Semestre</h1>
 {{#materia1}}
@@ -44,7 +45,7 @@
 </li>
 </ul>
 {{/materia6}}
-
+<hr/>
 <h1> 2º Semestre </h1>
 {{#materia7}}
 <ul>
@@ -74,20 +75,26 @@
 </li>
 </ul>
 {{/materia10}}
+{{#materia11}}
+<ul>
+<li>
+ Nome: <b>{{nome}}</b> Status: <b>{{status}}</b> nota: <b>{{nota}}</b> frequência: <b>{{frequencia}}</b>
+</li>
+</ul>
+{{/materia11}}
 
 <style>
 body{
-    background-image: linear-gradient( to right, #bc4ed8,#f988ff); 
-    font-family: 'Open Sans', sans-serif;font-size:20px;
+    font-family: 'Open Sans', sans-serif;font-size:18px;
 }
 h1{
-    color:white;
+    color:black;
 }
 ul{
-    color:white;
+    color:red;
 }
 b{
-    color:black;
+    color:blue;
 }
 
 </style>

@@ -1,3 +1,19 @@
 {{> header}}
 
 <h1> PAGINA HOME </h1>
+<h1> Projeto 02 Desenvolvimento Web II</h1>
+<p>Projeto criado utilizando Node.JS e frameworks como o Express e o Mustache</p>
+<p>Objetivo do projeto é criar 3 rotas usando de base o código fonte feito em sala de aula, as 3 rotas são divididas por: </p>
+<ul>
+<li>A primeira rota sendo a principal, é  a apresentação do projeto, apenas digitando http://localhost:3000/ você acessa a pagina</li>
+<li>Segunda rota se trata do meu histórico de notas do primeiro e segundo semestre, tem informações como nome da materia, se eu fui aprovado e qual foi minha frequência, apenas digitando http://localhost:3000/rota1 você acesssa a pagina</li>
+<li>Terceira rota se trata das matérias do terceiro semestre e em que dia  e horário acontecerá, apenas digitando http://localhost:3000/rota2 você acesssa a pagina</li>
+</ul>
+</body>
+
+<style>
+body{
+    font-family: 'Open Sans', sans-serif;font-size:25px;
+}
+
+</style>

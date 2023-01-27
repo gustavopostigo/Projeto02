@@ -1,4 +1,4 @@
-<table style='border:red 2px solid'>
+<table style='border:blue 5px solid'>
     <tr>
       <td>Horarios</td>
       <td>SEG</td>
@@ -60,7 +60,3 @@
 
       </tr>
   </table>
-td{ 
-    border: 2px red solid;
-    font-size: 18pt;
-    }
